@@ -296,6 +296,17 @@ projects:
         bases:
           - "20.04"
 
+  - name: LDAP Test Fixture Charm
+    charmhub: openstack-charmers-ldap-test-fixture
+    launchpad: charm-ldap-test-fixture
+    repository: https://github.com/openstack-charmers/charm-ldap-test-fixture.git
+    branches:
+      master:
+        build-channels:
+          charmcraft: "3.x/stable"
+        channels:
+          - latest/edge
+
   - name: OpenID Connect Test Fixture Charm
     charmhub: openidc-test-fixture
     launchpad: charm-openidc-test-fixture
